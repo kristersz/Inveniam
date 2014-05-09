@@ -1,0 +1,58 @@
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for DotfuscatorAttribute: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.LoadingEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.EmailAttachmentType: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.FormErrorType: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.XmlOperation: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.PermissionType: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.TaskPaneType: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.XmlFormOpenMode: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.CertificateStatus: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.SignatureStatus: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.SignatureRelation: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.MachineState: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ErrorMode: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ExportFormat: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.WindowType: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.WindowState: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ActionType: type is a value type.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ViewSwitchedEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.VersionUpgradeEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.MergeEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.SubmitEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ContextChangedEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.SaveEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.SignEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.XmlChangedEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.XmlChangingEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.XmlValidatingEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ClickedEventHandler: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.FormTemplate: method System.IO.Stream Microsoft.Office.InfoPath.FormTemplate.OpenFileFromPackage(System.String filename) unstubbable: method is abstract and could not be stubbed, type System.IO.Stream is not available in the target framework version.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate stub for Microsoft.Office.InfoPath.ManagedObjectWrapper: type is sealed.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for DotfuscatorAttribute: type is not supported because of internal limitations.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.LoadingEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.EmailAttachmentType: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.FormErrorType: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.XmlOperation: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.PermissionType: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.TaskPaneType: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.XmlFormOpenMode: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.CertificateStatus: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.SignatureStatus: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.SignatureRelation: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.MachineState: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.ErrorMode: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.ExportFormat: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.WindowType: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.WindowState: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.ActionType: type is an enum.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.ViewSwitchedEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.VersionUpgradeEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.MergeEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.SubmitEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.ContextChangedEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.SaveEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.SignEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.XmlChangedEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.XmlChangingEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.XmlValidatingEventHandler: type is a delegate.
+C:\Dev\Inveniam\Inveniam\Fakes\Microsoft.Office.Infopath.fakes : warning : Cannot generate shim for Microsoft.Office.InfoPath.ClickedEventHandler: type is a delegate.
