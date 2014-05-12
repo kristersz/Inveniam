@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Interfaces.Inveniam;
 using Microsoft.Office.InfoPath;
 
 namespace Inveniam.Mocks
 {
-	public class DataConnectionMock : DataConnection
+	public class DataConnectionMock : DataConnection, IMockContainer
 	{
 		protected string _name;
 

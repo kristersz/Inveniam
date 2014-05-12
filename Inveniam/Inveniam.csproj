@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IMockCollection.cs" />
+    <Compile Include="Interfaces\IMockContainer.cs" />
     <Compile Include="Infrastructure\Resources\Names.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -72,6 +74,8 @@
     <Compile Include="Infrastructure\Xml\XmlBuilder.cs" />
     <Compile Include="Mocks\DataSourceCollectionMock.cs" />
     <Compile Include="Mocks\DataSourceMock.cs" />
+    <Compile Include="Mocks\FormErrorCollectionMock.cs" />
+    <Compile Include="Mocks\FormErrorMock.cs" />
     <Compile Include="Mocks\FormStateMock.cs" />
     <Compile Include="Mocks\XPathNavigatorMock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

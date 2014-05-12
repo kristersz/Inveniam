@@ -19,6 +19,7 @@ namespace Inveniam
 		private DataSourceMock _mainDataSource;
 		private XmlNamespaceManagerDummy _namespaceManager;
 		private FormStateMock _formState;
+		private FormErrorCollectionMock _formErrorCollection;
 
 		public TFormCode FormCode
 		{
@@ -59,11 +60,20 @@ namespace Inveniam
 			}
 		}
 
+		public FormErrorCollectionMock FormErrorCollection
+		{
+			get
+			{
+				return this._formErrorCollection;
+			}
+		}
+
 		public FormInstance()
 		{
 			this._dsCollection = new DataSourceCollectionMock();
 			this._namespaceManager = new XmlNamespaceManagerDummy();
 			this._formState = new FormStateMock(10);
+			this._formErrorCollection = new FormErrorCollectionMock();
 			this._formCode = (TFormCode)Activator.CreateInstance(typeof(TFormCode), new object[] { new RemoteArgumentArrayDummy() });
 
 			// izveido Shims kontekstu, kas darbojas uz visu appdomain
@@ -71,6 +81,7 @@ namespace Inveniam
 			InfoPathFakes.ShimXmlFormHostItem.AllInstances.NamespaceManagerGet = (x) => this.NamespaceManager;
 			InfoPathFakes.ShimXmlFormHostItem.AllInstances.DataSourcesGet = (x) => this._dsCollection;
 			InfoPathFakes.ShimXmlFormHostItem.AllInstances.FormStateGet = (x) => this._formState;
+			InfoPathFakes.ShimXmlFormHostItem.AllInstances.ErrorsGet = (x) => this._formErrorCollection;
 		}
 
 		public void AddMainDataSource<T>(T value, string methodName, string dataConnectionName)

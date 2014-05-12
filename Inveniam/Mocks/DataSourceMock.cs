@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Xml.XPath;
+using Interfaces.Inveniam;
 using Inveniam.Dummies;
 using Microsoft.Office.InfoPath;
 
 namespace Inveniam.Mocks
 {
-	public class DataSourceMock : DataSource
+	public class DataSourceMock : DataSource, IMockContainer
 	{
 		protected string _name;
 

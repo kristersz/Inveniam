@@ -3,11 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Inveniam.Interfaces;
 using Microsoft.Office.InfoPath;
 
 namespace Inveniam.Mocks
 {
-	public class DataSourceCollectionMock : DataSourceCollection
+	public class DataSourceCollectionMock : DataSourceCollection, IMockCollection<DataSource, DataSourceMock>
 	{
 		private List<DataSourceMock> _dataSources;
 
@@ -58,7 +59,7 @@ namespace Inveniam.Mocks
 
 		public override IEnumerator GetEnumerator()
 		{
-			foreach (object ds in _dataSources)
+			foreach (object ds in this._dataSources)
 			{
 				if (ds == null)
 				{
